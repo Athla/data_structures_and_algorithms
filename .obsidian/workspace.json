@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "90e8c188925fd7e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ea3221cc05175d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67b05b60b1221d92",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4eadeadf5322748f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms and Data Structures.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c3280086901def4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Space Complexity.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6dccd74b59965d11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Time complexity.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c93d385cd1106bcc",
+    "type": "split",
+    "children": [
+      {
+        "id": "140a367b473d3d05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cab526d456f57024",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9da29a7d198a12c8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3b4d403135248678",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "45f87bb8b30f8683",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff28c661a3d85bc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a9519f7d9d8232e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f3f6f8944ffcf256",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ac3c8fcedc08ce50",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "afd276f30aacda73",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "67b05b60b1221d92",
+  "lastOpenFiles": [
+    "Algorithms and Data Structures.md",
+    "Space Complexity.md",
+    "Concepts/Data Structures.md",
+    "LC_Problems/242. Valid Anagram.md",
+    "LC_Problems/217. Contains Duplicate.md",
+    "Time complexity.md",
+    "49. Group Anagrams.md",
+    "LC_Problems/01. Two Sum.md",
+    "IMGS/HashTable.png",
+    "IMGS/Hasing-Python.png",
+    "IMGS",
+    "Concepts",
+    "LC_Problems"
+  ]
+}
