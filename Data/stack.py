@@ -27,11 +27,13 @@ class Stack(Generic[T]):
     def __init__(self):
         self.length:int = 0
         self.head: Optional[Node[T]] = None
+        self.stack = []
     
     def push(self, item: T) -> None:
         node = Node(item, self.head)
         self.head = node
         self.length += 1
+        self.stack.append(self.head)
 
     def pop(self) -> Optional[T]:
         if not self.head:
@@ -41,9 +43,11 @@ class Stack(Generic[T]):
         self.length = 0 if curr_len == 1 else curr_len -1
         popped_val = self.head.value
         self.head = self.head.prev
-
+        self.stack.remove(popped_val)
         return popped_val
 
     def peek(self) -> Optional[T]:
         return self.head.value if self.head else None
 
+    def __repr__(self):
+        return f"{self.stack}"
