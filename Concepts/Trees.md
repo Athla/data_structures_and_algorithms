@@ -81,6 +81,15 @@ O       O   O       O
                 - In the base case, define where it starts, end and where does it returns;
                 - After that, define where the recursive step should be called.
         - Implicit usage of a Stack
+        - Trees have unique properties related to search algorithms and such, allowing efficient search and ordering methods;
+        - The file system ordering and storage may be a good example of how trees are used and how to visualize them
+            - By defining it's core parameter, which means, what will categorize it, it becomes possible to exclude or include which branches will be included.
+            - By doing that, it becomes way faster to find a specific parameter
+            - However, there is a the cost of the filtering operation, be it in place, be it in memory
+            - Both sides can be equally expensive, thus, it may be needed to use different DS
+
+    - A quick tree search/traversal may have a Big O of O(log n) to O(N), depending on it's height.
+
     - Breadth First
         - Implicit use of a Queue, as it's the oppostire of a DFS
         - Go level by level of a tree
