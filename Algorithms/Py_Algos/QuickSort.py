@@ -28,10 +28,8 @@ def quicksort(arr, low, high):
         quicksort(arr, low, pIdx -1)
         quicksort(arr, pIdx +1, high)
 
-
-
 if __name__ == "__main__":
-    arr = create_array(100, 10)
-    print(arr)
+    arr = create_array(100, 25)
+    print("old array:" ,arr)
     quicksort(arr, 0, len(arr) -1)
     print("New Array: ", arr)
